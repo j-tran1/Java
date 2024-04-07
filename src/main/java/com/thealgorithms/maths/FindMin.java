@@ -9,11 +9,11 @@ public final class FindMin {
      *
      * @param array the input array
      * @exception IllegalArgumentException input array is empty
-     * @return the mimum value stored in the input array
+     * @return the minimum value stored in the input array
      */
     public static int findMin(final int[] array) {
         if (array.length == 0) {
-            throw new IllegalArgumentException("Array must be non-empty.");
+            throw new IllegalArgumentException("Array should be non-empty.");
         }
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
